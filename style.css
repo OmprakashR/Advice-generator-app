@@ -1,0 +1,103 @@
+/*font Manrope*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+
+
+:root {
+
+    --Light_Cyan: hsl(193, 38%, 86%);
+    --Neon_Green: hsl(150, 100%, 66%);
+    --Grayish_Blue: hsl(217, 19%, 38%);
+    --ark_Grayish_Blue: hsla(217, 19%, 24%);
+    --Dark_Blue: hsl(218, 23%, 16%);
+
+}
+
+*,
+*::after,
+*::before {
+
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+    background-color: var(--Dark_Blue);
+    display: flex;
+    justify-content: center;
+    text-align: center; transition: 0.5s all;
+    align-items: center;
+}
+
+h1 {
+    color: var(--Neon_Green);
+    text-transform: uppercase;
+    font-size: 0.7em;
+    letter-spacing: 0.3em;
+    font-weight: lighter;
+}
+
+.Advice_div {
+    display: flex;
+    flex-direction: column;
+  width: 30em;  
+ 
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0);
+    padding: 3em;
+    justify-content: space-between;
+    border-radius: 1em;
+    background-color: var(--ark_Grayish_Blue);
+    gap: 2em;
+    position: relative;
+}
+
+#results {
+    font-size: 1.5em; transition: 0.5s all;
+    color: var(--Light_Cyan); min-height: 100px; 
+    display: flex;
+    align-items: center; text-align: center;    justify-content: center;
+}
+
+
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    --sum: 100px;
+    width: calc(var(--sum)/2);
+    border: none;
+    height: calc(var(--sum)/2);
+    align-self: center;
+    background-color: var(--Neon_Green);
+    border-radius: calc(var(--sum)/2);
+    position: absolute;
+    bottom: -24px;
+}
+
+.btn img {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 0px 8px 10px hsl(150deg 100% 66% / 31%)
+}
+
+
+@media (width <= 768px) {
+
+    .Advice_div{ 
+        width: 95%;
+        margin: 0 auto;
+    }
+}
