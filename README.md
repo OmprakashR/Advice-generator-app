@@ -16,3 +16,6 @@
 - CSS Grid
 - Mobile-first workflow
  - Random Advice API [ Link here](https://api.adviceslip.com/advice)
+
+
+- PageSpeed Insights [Check here](https://pagespeed.web.dev/analysis/https-omprakashr-github-io-Advice-generator-app/zm5panncw8?form_factor=mobile)
