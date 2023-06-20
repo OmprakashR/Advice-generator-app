@@ -4,9 +4,8 @@
  
   ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
+- Solution URL: [Live site URL](https://omprakashr.github.io/Advice-generator-app/)
+- Git code  URL: [click here](https://github.com/OmprakashR/Advice-generator-app.git)
 ## My process
 
 ### Built with
@@ -16,6 +15,4 @@
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+ - Random Advice API [ Link here](https://api.adviceslip.com/advice)
